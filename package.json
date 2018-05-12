@@ -1,0 +1,24 @@
+{
+  "name": "node-proxy-server",
+  "version": "1.0.0",
+  "description": "If you do not understand how to setup web servers such as nginx, you can use this to help you make a reverse proxy server, instead of nginx!",
+  "description-zh": "如果你不知道如何配置服务器例如nginx，你可以使用这个来做一个反向代理服务器，来取代用nginx！",
+  "main": "proxy-server.js",
+  "dependencies": {
+    "http-proxy": "^1.16.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node proxy-server.js"
+  },
+  "author": "BugKun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BugKun/node-proxy-server/issues"
+  },
+  "homepage": "https://github.com/BugKun/node-proxy-server",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BugKun/node-proxy-server.git"
+  }
+}
