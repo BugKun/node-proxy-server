@@ -36,10 +36,10 @@ module.exports = {
             host: /^www.github.com$/,
             options: { target: 'http://localhost:8080' },
             description: "Proxy：My github"
-        }
+        },
         {
-            host: /^github.com$/,
-            options: { target: 'http://localhost:8080', changeOrigin: true },
+            host: /^proxy.domian.com$/,
+            options: { target: 'http://www.google.com', changeOrigin: true },
             description: "Proxy：My proxy github"
         }
     ],
