@@ -17,8 +17,8 @@ if (option.mode === "maintainace") {
         host: ${host}
         url: http://${host + req.url}`);
 
-        res.writeHead(200, {'Content-Type': option.verify.ContentType});
-        res.end(option.verify.value);
+        res.writeHead(200, {'Content-Type': option.maintainace.ContentType});
+        res.end(option.maintainace.value);
     }).listen(option.listen.http);
     console.log(`verifying mode is active and listening on port ${option.listen.http}`);
     return;
