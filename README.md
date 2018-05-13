@@ -48,7 +48,7 @@ module.exports = {}
     ]
  ```
  #### https
- 配置HTTPS的（反向）代理，可使用正则匹配的方式设置多个域名。
+ 配置HTTPS的（反向）代理，可使用正则匹配的方式设置多个域名。options的配置与[node-http-proxy](https://github.com/nodejitsu/node-http-proxy)的相同。
  ```JavaScript
  https: [
         {
