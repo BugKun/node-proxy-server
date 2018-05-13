@@ -5,6 +5,24 @@ description: If you do not understand how to setup web servers such as nginx, yo
 简介：如果你不知道如何配置服务器例如nginx，你可以使用这个来做一个反向代理服务器，来取代用nginx！
 
 ## 如何使用
+### 前提
+
+安装 nodejs 和 npm 和 git
+
+### 安装
+复制该项目到本地硬盘.
+
+	git clone https://github.com/BugKun/node-proxy-server.git
+
+然后运行
+
+	npm install
+
+### 开始运行
+
+	npm start
+  
+### 使用实例
 * 你只需按下列规则修改option.js即可。
 * option.js返回的数据要是JSON数据，可使用
 ```JavaScript 
@@ -70,4 +88,24 @@ module.exports = {}
     }
  ```
  
-## How to use it
+## Usage
+
+### Prerequisite
+
+You will need node and npm install 
+
+
+### Install
+Git clone the repository.
+
+	git clone https://github.com/BugKun/node-proxy-server.git
+
+Then run 
+
+	npm install
+
+### Run
+Run 
+
+	npm start
+### Use Cases
