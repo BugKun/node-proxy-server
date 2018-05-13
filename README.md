@@ -34,15 +34,14 @@ module.exports = {}
   只有两个字符串参数，分别是 'normal' 和 'maintainace'，'normal'为正常运行模式，'maintainace'为维护模式，不论访问任何页面都返回维护信息的提示，当然你也可以用   它来做一些网站身份的校验工作。
   
 #### maintainace
-  配置的是一个object，里面有'value'，即网站维护时提示的信息，'ContentType'为设置类型。
-  
-  ```JavaScript 
-  maintainace: {
+  配置的是一个object，里面有'value'，即网站维护时提示的信息，'ContentType'为设置类型。 
+  ```JavaScript 
+   maintainace: {
         value: "maintainace",
         ContentType: "text/html"
   }
- ```
-  
+  ```
+
 #### errPage
   配置错误页面，仅支持404和500错误。你可以使用'fs'来读取你自定义的错误页面，也可以直接写字符串。
   ```JavaScript 
@@ -57,7 +56,7 @@ module.exports = {}
         }
     }
   ```
-  
+
 #### ssl
  配置SSL证书，可使用正则匹配的方式设置多个SSL证书。
  ```JavaScript
@@ -69,8 +68,8 @@ module.exports = {}
         }
     ]
  ```
- 
- #### https
+
+#### https
  配置HTTPS的（反向）代理，可使用正则匹配的方式设置多个域名。options的配置与[node-http-proxy](https://github.com/nodejitsu/node-http-proxy)的相同。
  ```JavaScript
  https: [
@@ -140,11 +139,11 @@ module.exports = {}
   errPage: {
         404: {
             HTML: fs.readFileSync('./error/404.html'),
-            warning: "Proxy：404页面"
+            warning: "Proxy：404 page"
         },
         500: {
             HTML: fs.readFileSync('./error/500.html'),
-            warning: "Proxy：500页面"
+            warning: "Proxy：500 psge"
         }
     }
   ```
