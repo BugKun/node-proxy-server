@@ -3,7 +3,7 @@ const fs = require("fs");
 
 module.exports = {
     mode: "normal", //normal or maintainace
-    verify: {
+    maintainace: {
         value: "maintainace",
         ContentType: "text/html"
     },
