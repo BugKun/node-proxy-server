@@ -31,7 +31,7 @@ module.exports = {}
 ```
 
 #### mode
-  只有两个字符串参数，分别是 normal 和 maintainace，normal为正常运行，maintainace为维护模式，不论访问任何页面都返回维护信息的提示，当然你也可以用   它来做一些网站身份的校验工作。
+  只有两个字符串参数，分别是 normal 和 maintainace，normal为正常运行模式，maintainace为维护模式，不论访问任何页面都返回维护信息的提示，当然你也可以用   它来做一些网站身份的校验工作。
 #### maintainace
   配置的是一个object，里面有value，即网站维护时提示的信息，ContentType为设置类型
   ```JavaScript 
