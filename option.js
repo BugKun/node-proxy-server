@@ -2,10 +2,10 @@
 const fs = require("fs");
 
 module.exports = {
-    mode: "normal", //normal or verifying
+    mode: "normal", //normal or maintainace
     verify: {
-        value: "verifying",
-        ContentType: "text/plain"
+        value: "maintainace",
+        ContentType: "text/html"
     },
     errPage: {
         404: {
