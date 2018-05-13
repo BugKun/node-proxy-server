@@ -6,7 +6,7 @@
     proxy = httpProxy.createProxyServer({});
 
 
-if (option.mode === "verifying") {
+if (option.mode === "maintainace") {
     http.createServer((req, res) => {
         let host = req.headers.host,
             ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
