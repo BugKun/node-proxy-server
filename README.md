@@ -19,16 +19,16 @@ description: If you do not understand how to setup web servers such as nginx, yo
 	npm install
 
 ### 开始运行
+命令行输入并运行
 
 	npm start
   
 ### 使用实例
 * 你只需按下列规则修改option.js即可。
-* option.js返回的数据要是JSON数据，可使用
+* option.js返回的数据要是JSON数据，可使用这样的配置来实现。
 ```JavaScript 
 module.exports = {} 
 ```
-来实现。
 
 #### mode
   只有两个字符串参数，分别是 normal 和 maintainace，normal为正常运行，maintainace为维护模式，不论访问任何页面都返回维护信息的提示，当然你也可以用   它来做一些网站身份的校验工作。
